@@ -81,9 +81,9 @@ int main()
             fout << std::setw(20) << std::left <<marsaeigis[i].stabdymo_priezastis; // spausdiname marsaeigio[i] stabdymo priezasti
             for(int j = 0; j < marsaeigis[i].komandos_padarytos; ++j)
                 {
-                    fout << marsaeigis[i].seka[j]; //spausdiname marsaeigio[i] visa seka (kaip jis judejo)
+                    fout << marsaeigis[i].seka[j] << " "; //spausdiname marsaeigio[i] visa seka (kaip jis judejo)
                 }
-            fout << " " << marsaeigis[i].komandos_padarytos << '\n'; // spausdiname kiek komandu atliko marsaeigis[i]
+            fout << marsaeigis[i].komandos_padarytos << '\n'; // spausdiname kiek komandu atliko marsaeigis[i]
         }
 
     return 0;
