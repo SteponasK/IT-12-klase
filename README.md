@@ -22,6 +22,6 @@
 ## 👑 Autorius 
 - Steponas K
 
-## 📜 Licenzija
+## 📜 Licencija
 Šis projekto autoriaus teisės  yra saugomos pagal MIT licenziją. Norėdami ją pamatyti peržiūrėkite [LICENSE](LICENSE) failą.
 
